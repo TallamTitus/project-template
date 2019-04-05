@@ -1,57 +1,26 @@
-# My Awesome Project
+# SHERIA TALK
 
-This is the catchphrase: what does this project do and how is it unique?
-
-[![Build Status](https://img.shields.io/travis/PHP-DI/PHP-DI/master.svg?style=flat-square)](https://travis-ci.org/PHP-DI/PHP-DI)
-[![Latest Version](https://img.shields.io/github/release/PHP-DI/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/PHP-DI/php-di)
-[![Total Downloads](https://img.shields.io/packagist/dt/PHP-DI/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/PHP-DI/php-di)
-
-Here is an additional quick introduction, if necessary.
-
-## Why?
-
-Why does this project exist? Come on, don't delete this part. Fill it.
-Yes it's hard, but it's perhaps the most important part of the README.
-
-As to why *this* project exist, it's to serve as a template for future open
-source PHP projects. Of course, feel free to fork it and make your own recipe.
+Sheria talk is an online legal information system for kenyans to get and share legal information and access legal documents and  legal representation
 
 ## Installation
 
-Describe how to install the project/library/framework/…
-
-Make sure your installation instructions work by testing them!
+Sheria talk requires a server to run on such as apache server, PHP 5 and above and a database server.
+To install a local server such as Wamp server or Xampp with php 5 and above.
+To insatll on the web, acquire a web server and make sure it has php 5 and above.
+Unzip the sheriatalk.zip file and copy the files to the server directory eg; C:\xampp\htdocs for local xampp server.
+Open sql server such as phpMyadmin for Xampp server.
+Open the sheria_talk_db.sql file and run the sql script on the server.
+Open the project on your browser, for example; localhost/filename(name of the file with the project files in the server)
 
 ## Usage
 
-Describe how to use the project. A gif or a short code example is the best
-way to show how it works. Also keep paragraphs short and sentences simple: not
-everybody speaks english well.
+Admin
+username: admin
+Password: 12345678
 
-For the sake of the example here is how you can use this project template
-as a basis for your own repository:
+test user
+email: tallamtitus@gmail.com
+password: 12345678
 
-```bash
-git clone https://github.com/mnapoli/project-template.git my-project
-cd my-project
-# Remove the git repository metadata
-rm -rf .git/
-# Start a brand new repository
-git init
-git add .
-```
 
-Easy peasy! Now you just have to code.
-
-Make sure your examples work by testing them! I didn't test mine and I should feel ashamed.
-
-## Contributing
-
-See the [CONTRIBUTING](./.github/CONTRIBUTING.md) file.
-
-## License
-
-Come on, [choose a license](http://choosealicense.com/) already! If you don't know or don't
-care, the MIT license is the most widely used license.
-
-For *this* project, I choose […drumroll…] the [Do What the Fuck You Want to Public License](http://www.wtfpl.net/).
+Register to create other accounts. Lawyers create account by clicking list service on home page and filling the list service form.
